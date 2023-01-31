@@ -93,6 +93,16 @@ print("q",q,id(q))
 print("r",r,id(r))
 
 
+a=[1,2,3,4]
+b=[2,3,4,5]
+print(a+b)
+# print(a*b)
+
+# python array
+import array
+
+a=array.array("I",[1,2,3,4,5])
+print(a)
 
 
 

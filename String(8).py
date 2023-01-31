@@ -98,3 +98,7 @@ print("o",o)
 
 p=a[::-1]
 print("p",p)
+a="krishna"
+b="kumar"
+print(a+b)   # concatination 
+
