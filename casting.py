@@ -49,3 +49,63 @@ print(g)
 
 e="10.0"
 print(int(float(e)))
+
+# Casting of collection
+
+a=[1,"krishna",1.01]
+print("a",a,id(a))
+d=tuple(a)
+print("d",d,id(d))
+
+e=set(d)     #{1, 'krishna', 1.01}
+print(e)
+
+print(id(1))
+print(id(1.0))
+
+f=list(e)
+print(f)
+
+# g=tuple(f)
+print(tuple(f))
+
+a=1
+print(complex(a))
+
+a=10,20
+print(a)    #(10,20)
+
+
+c,d=10,20
+print("c",c)    #10
+print("d",d)    #20
+d,c=10,20
+# c,d=20,10
+print("c",c)    #20
+print("d",d)    #10
+
+# swap two variable using third variable temp
+
+l=10
+m=20
+
+temp=l+m   #30
+l=temp-l   #30-10
+m=temp-m   #30-20
+
+print("L",l)
+print("m",m)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
